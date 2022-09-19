@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+#main {
+    width: 100vw;
+    height: 100%;
+    background: url(./images/hoang-hon-phu-quoc.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+#main h1 {
+    text-align: center;
+    color: #ffff01;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.paragraph {
+    margin: 0px 200px;
+}
+
+.paragraph h3 {
+    margin: 13px 0px;
+    font-size: 24px;
+}
+
+.second-paragraph h3 {
+    color: #d40101;
+}
+
+.third-paragraph h3 {
+    color: #fe9d0c;
+}
+
+.fourth-paragraph h3 {
+    color: #00ff00;
+}
+
+.fifth-paragraph h3 {
+    color: #fe00fe;
+}
+
+.paragraph p {
+    font-size: 14px;
+    text-indent: 60px;
+    margin: 10px 0px;
+}
+
+.paragraph p:first-child {
+    text-indent: 0;
+    font-style: italic;
+}
